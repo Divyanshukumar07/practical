@@ -1,0 +1,22 @@
+to create app for app.js 
+
+cmd =
+npx create-expo-app@latest app-name --template blank@sdk-49
+========================================================
+
+
+GitHub push
+
+Initialize Git (COMMANDS)
+
+git init
+git add .
+git config --global user.email "sunildessai001@gmail.com"
+
+git commit -m "College App"
+
+Push to GitHub
+
+git branch -M main
+git remote add origin https://github.com/username/college-app.git
+git push -u origin main

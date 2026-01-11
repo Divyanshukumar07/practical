@@ -1,0 +1,58 @@
+to create app for app.js 
+
+cmd =
+npx create-expo-app@latest app-name --template blank@sdk-49
+========================================================
+
+code:
+
+
+
+import { View, Text, TextInput, Image, ScrollView, StyleSheet } from 'react-native';
+
+export default function App() {
+  return (
+    <ScrollView>
+      <View style={styles.container}>
+
+        <Text style={styles.title}>My College App</Text>
+
+        <Image
+          source={{ uri: "https://reactnative.dev/img/tiny_logo.png" }}
+          style={{ width: 80, height: 80 }}
+        />
+
+        <TextInput
+          placeholder="Enter Student Name"
+          style={styles.input}
+        />
+
+        <TextInput
+          placeholder="Enter Roll Number"
+          style={styles.input}
+        />
+
+        <Text>Welcome to College Application</Text>
+
+      </View>
+    </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 20,
+    alignItems: "center"
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10
+  },
+  input: {
+    borderWidth: 1,
+    width: "100%",
+    padding: 10,
+    marginVertical: 5
+  }
+});

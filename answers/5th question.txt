@@ -1,0 +1,19 @@
+🔹 Front End App Development
+
+Front end development deals with UI of application using technologies like React Native, HTML, CSS and JavaScript.
+
+🔹 Design Principles
+
+Design principles include simplicity, consistency, readability and user-friendly interfaces.
+
+🔹 Responsive UI Design
+
+Responsive design allows UI to adjust according to screen size using flexbox and percentage width.
+
+🔹 Mobile-First Principle
+
+Mobile-first approach means designing the application for mobile devices first and then scaling to larger screens.
+
+🔹 Debugging Tools & Error Handling
+
+Debugging tools include console logs, Expo debugger and Chrome DevTools. Error handling is done using try-catch blocks.

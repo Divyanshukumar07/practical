@@ -1,0 +1,54 @@
+to create app for tsx file
+
+cmd =
+npx create-expo-app@latest
+
+
+
+to create app for app.js 
+
+cmd =
+npx create-expo-app@latest app-name --template blank@sdk-49
+
+========================================================
+
+GitHub push
+
+Initialize Git (COMMANDS)
+
+git init
+git add .
+git commit -m "College App"
+
+Push to GitHub
+
+git branch -M main
+git remote add origin https://github.com/username/college-app.git
+git push -u origin main
+
+
+========================================================
+
+
+TO install firebase 
+
+npm install firebase
+npx expo install @react-native-async-storage/async-storage
+npx expo customize metro.config.js
+
+========================================================
+
+
+Navigation Between Screens
+cmd:
+
+npm install @react-navigation/native @react-navigation/stack
+npm install react-native-screens react-native-safe-area-context
+
+
+
+========================================================
+
+
+
+
