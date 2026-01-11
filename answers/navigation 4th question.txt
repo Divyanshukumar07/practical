@@ -6,9 +6,10 @@ cmd =
 npx create-expo-app@latest app-name --template blank@sdk-49
 
 npm install @react-navigation/native @react-navigation/stack
+
 npm install react-native-screens react-native-safe-area-context
 
-
+npx expo install react-native-gesture-handler
 
 ========================================================
 
@@ -17,6 +18,7 @@ app.js
 
 code:
 
+import 'react-native-gesture-handler'
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { View, Text, Button } from "react-native";
