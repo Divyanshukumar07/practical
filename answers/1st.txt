@@ -8,51 +8,56 @@ code:
 
 
 
-import { View, Text, TextInput, Image, ScrollView, StyleSheet } from 'react-native';
+import { Text, TextInput, Image, ScrollView, StyleSheet } from 'react-native';
 
 export default function App() {
   return (
-    <ScrollView>
-      <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
 
-        <Text style={styles.title}>My College App</Text>
+      <Text style={styles.title}>My College App</Text>
 
-        <Image
-          source={{ uri: "https://reactnative.dev/img/tiny_logo.png" }}
-          style={{ width: 80, height: 80 }}
-        />
+      {/* 1. IMAGE FIX: Using require() for local file */}
+      <Image
+        source={require('./assets/pcce.jpeg')}
+        style={styles.image}
+      />
 
-        <TextInput
-          placeholder="Enter Student Name"
-          style={styles.input}
-        />
+      {/* Inputs */}
+      <TextInput placeholder="Enter Student Name" style={styles.input} />
+      <TextInput placeholder="Enter Roll Number" style={styles.input} />
 
-        <TextInput
-          placeholder="Enter Roll Number"
-          style={styles.input}
-        />
+      <Text style={{ marginTop: 20 }}>Welcome to College Application</Text>
 
-        <Text>Welcome to College Application</Text>
+      {/* 2. SCROLL FIX: Added extra space at bottom to test scrolling */}
+      <Text style={{ marginTop: 600 }}>
+        (I am at the bottom to prove scrolling works!)
+      </Text>
 
-      </View>
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20,
-    alignItems: "center"
+    padding: 30,
+    alignItems: "center",
+    paddingTop: 60, // Pushes content down from status bar
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginBottom: 10
+    marginBottom: 20
+  },
+  image: {
+    width: 150,   // Adjusted size to look good
+    height: 150,
+    marginBottom: 20
   },
   input: {
     borderWidth: 1,
-    width: "100%",
+    width: "100%", // Takes full width
     padding: 10,
-    marginVertical: 5
+    marginBottom: 10,
+    borderRadius: 5
   }
 });
