@@ -51,5 +51,8 @@ npx expo install react-native-gesture-handler
 ========================================================
 
 
+%JAVA_HOME%\bin
+
+
 
 
