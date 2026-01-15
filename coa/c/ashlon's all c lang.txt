@@ -1,0 +1,294 @@
+Fibonacci series
+
+#include <stdio.h>
+int main() {
+    int n, first = 0, second = 1, next, i;
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
+    printf("Fibonacci Series: ");
+    for (i = 1; i <= n; i++) {
+        printf("%d ", first);
+        next = first + second;
+        first = second;
+        second = next;
+    }
+    return 0;
+}
+
+--------------------------------------------------------
+
+#include <stdio.h>
+#include <conio.h>
+int fib(int n) {
+    if (n <= 1)
+        return n;
+    return fib(n - 1) + fib(n - 2);
+}
+int main() {
+    int n, i;
+    printf("Enter size: ");
+    scanf_s("%d", &n);
+    for (i = 0; i < n; i++) {
+        printf("%d ", fib(i));
+    }
+    _getch();
+}
+
+--------------------------------------------------------
+
+
+
+#include <stdio.h>
+#include <conio.h>
+#include <stdint.h>
+void printBinary(int16_t num, int bits) {
+    for (int i = bits - 1; i >= 0; i--)
+        printf("%d", (num >> i) & 1);
+}
+int main() {
+    int8_t M, Q;
+    int16_t AQ = 0;
+    int Q1 = 0, n;
+    printf("Enter multiplicand: ");
+    scanf_s("%hhd", &M);
+    printf("Enter multiplier: ");
+    scanf_s("%hhd", &Q);
+    printf("Enter number of bits: ");
+    scanf_s("%d", &n);
+    AQ = Q;
+    AQ &= (1 << n) - 1;
+    printf("\nMultiplicand (binary): ");
+    printBinary(M, n);
+    printf("\nMultiplier   (binary): ");
+    printBinary(Q, n);
+    for (int i = 0; i < n; i++) {
+        int Q0 = AQ & 1;
+        if (Q0 == 1 && Q1 == 0)
+            AQ -= ((int16_t)M << n);
+        else if (Q0 == 0 && Q1 == 1)
+            AQ += ((int16_t)M << n);
+        Q1 = Q0;
+        AQ >>= 1;
+    }
+    printf("\n\nProduct (decimal): %d", AQ);
+    printf("\nProduct (binary) : ");
+    printBinary(AQ, n);
+    _getch();
+}
+
+
+--------------------------------------------------------
+recursion
+
+#include <stdio.h>
+#include <conio.h>
+int fact(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    else {
+        return n * fact(n - 1);
+    }
+}
+int main() {
+    int n, result;
+    printf("Enter Numb(1-9): ");
+    scanf_s("%d", &n);
+    result = fact(n);
+    printf("Result: %d", result);
+}
+
+--------------------------------------------------------
+FACTORIAL , iteration 
+
+
+#include <stdio.h>
+int main() {
+    int n, fact = 1, i;
+    printf("Enter Numb(1-9): ");
+    scanf_s("%d", &n);
+    for (i = 1; i <= n;i++) {
+        fact *= i;
+    }
+    printf("Result: %d", fact);
+ }
+ 
+--------------------------------------------------------
+Binary Multiplication using Bitwise Operators, also known as the Shift-and-Add Multiplication algorithm.
+or
+Multiplication of unsigned numbers
+
+#include <stdio.h>
+int main() {
+    int a, b, result = 0;
+    printf("Enter multiplicand: ");
+    scanf_s("%d", &a);
+    printf("Enter multiplier: ");
+    scanf_s("%d", &b);
+    while (b > 0) {
+        if (b & 1)
+            result += a;
+        a = a << 1;
+        b = b >> 1;
+    }
+    printf("Product = %d", result);
+    return 0;
+}
+
+--------------------------------------------------------
+
+
+
+#include <stdio.h>
+int main() {
+    float a, b;
+    printf("Enter first number: ");
+    scanf_s("%f", &a);
+    printf("Enter second number: ");
+    scanf_s("%f", &b);
+    printf("\nAddition = %.2f", a + b);
+    printf("\nMultiplication = %.2f", a * b);
+    return 0;
+}
+
+
+--------------------------------------------------------
+STRING
+
+#include <stdio.h>
+int main() {
+    char str[50];
+    printf("Enter text: ");
+    fgets(str, 50, stdin);
+    printf("You entered: %s", str);
+    return 0;
+}
+
+
+
+--------------------------------------------------------
+SUM OF ARRAY
+
+#include <stdio.h>
+int main() {
+    int n, arr[10], result = 0;
+    printf("Enter size: ");
+    scanf_s("%d", &n);
+    printf("\nEnter Values: ");
+    for (int i = 0; i < n;i++) {
+        scanf_s("%d", &arr[i]);
+    }
+    printf("\nValues are: ");
+    for (int i = 0; i < n;i++) {
+        printf("%d ", arr[i]);
+        result += arr[i];
+    }
+    printf("\nResult: %d", result);
+    return 0;
+}
+
+--------------------------------------------------------
+REVERSE THE NUMBER
+
+
+#include <stdio.h>
+int main() {
+    int n, rev = 0;
+    printf("Enter number: ");
+    scanf_s("%d", &n);
+    while (n != 0) {
+        rev = rev * 10 + n % 10;
+        n /= 10;
+    }
+    //for (int i = 0; i < n; i++) {
+    //    arr2[i] = arr[n - 1 - i];
+    //}
+    printf("Reversed number = %d", rev);
+    return 0;
+}
+
+
+--------------------------------------------------------
+ADDITION , SUBTRACTION , DIVISION , MULTIPLICATION
+
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf_s("%d %d", &a, &b);
+    printf("Addition = %d\n", a + b);
+    printf("Subtraction = %d\n", a - b);
+    printf("Multiplication = %d\n", a * b);
+    if (b != 0)
+        printf("Division = %d\n", a / b);
+    else
+        printf("Division not possible (divide by zero)\n");
+    printf("Modulus = %d\n", a % b);
+    return 0;
+}
+
+
+--------------------------------------------------------
+DECIMAL TO BINARY
+
+#include <stdio.h>
+int main() {
+    int n, bin[20], i = 0;
+    printf("Enter decimal number: ");
+    scanf_s("%d", &n);
+    while (n > 0) {
+        bin[i++] = n % 2;
+        n /= 2;
+    }
+    printf("Binary: ");
+    for (int j = i - 1; j >= 0; j--)
+        printf("%d", bin[j]);
+    return 0;
+}
+
+
+--------------------------------------------------------
+DECIMAL TO HEXADECIMAL
+
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter decimal number: ");
+    scanf_s("%d", &n);
+    printf("Hexadecimal: %X", n);
+    return 0;
+}
+
+--------------------------------------------------------
+BINARY TO DECIMAL
+
+
+#include <stdio.h>
+int main() {
+    int bin;
+    printf("Enter binary number: ");
+    scanf_s("%d", &bin);
+    int dec = 0, base = 1;
+    while (bin > 0) {
+        dec += (bin % 10) * base;
+        base *= 2;
+        bin /= 10;
+    }
+    printf("Hexadecimal: %X", dec);
+    return 0;
+}
+
+--------------------------------------------------------
+
+DECIMAL TO OCTAL
+
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter decimal number: ");
+    scanf_s("%d", &n);
+    printf("Octal: %o", n);
+    return 0;
+}
+
+--------------------------------------------------------

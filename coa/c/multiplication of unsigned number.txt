@@ -1,0 +1,10 @@
+# include <stdio.h>
+int main() {
+    unsigned int a, b;
+    printf(" Enter two unsigned no:");
+    scanf("%u %u", &a, &b);
+    printf(" product:%u", a * b); 
+    return 0;
+}
+
+

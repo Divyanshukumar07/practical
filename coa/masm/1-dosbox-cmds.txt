@@ -1,0 +1,19 @@
+"mount c C:\"
+
+"C:"
+
+"cd DOS"
+
+"cd masm"
+
+then run "masm filename.asm"
+
+press enter enter enter till u get C:\DOS\MASM
+
+
+then enter "link filename.obj"
+
+press enter enter enter till u get C:\DOS\MASM
+
+then enter "filename.exe"
+

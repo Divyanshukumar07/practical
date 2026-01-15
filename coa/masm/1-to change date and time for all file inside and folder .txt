@@ -1,0 +1,19 @@
+to change all file inside that folder
+directly open powershell inside the folder and run the cmd copy paste all
+
+Get-ChildItem | ForEach-Object {
+    $_.CreationTime  = "7 January 2026 11:09:51" 
+    $_.LastWriteTime = "7 January 2026 11:09:51" 
+    $_.LastAccessTime= "7 January 2026 11:09:51" 
+}
+
+
+
+to change folder date and time 
+
+for eg if folder is in download then open powershell and go inside downloads using cd and run the cmd copy paste all
+
+$time = "7 January 2026 22:34" 
+(Get-Item "masm-test").CreationTime  = $time
+(Get-Item "masm-test").LastWriteTime = $time
+(Get-Item "masm-test").LastAccessTime= $time

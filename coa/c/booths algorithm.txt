@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int m, q, a = 0, q1 = 0, count = 4;
+    printf("Enter multiplicand and multiplier: ");
+    scanf("%d %d", &m, &q);
+    while (count > 0)
+    {
+        if ((q & 1) == 1 && q1 == 0)
+            a = a - m;
+        else if ((q & 1) == 0 && q1 == 1)
+            a = a + m;
+        q1 = q & 1;
+        q = q >> 1;
+        q = q | ((a & 1) << 3);   
+        a = a >> 1;
+        count--;
+    }
+    int result = (a << 4) | (q & 0xF);
+    printf("Result: %d", result);
+    return 0;
+}

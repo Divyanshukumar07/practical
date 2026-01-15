@@ -1,0 +1,31 @@
+booths algorithm but at normal basic logic
+
+#include<stdio.h>
+//#include<conio.h>
+void bin(int b , int bits)
+{
+    for(int i=bits;i>=0;i--)
+    {
+        printf("%d",(b>>i)&1);
+    }
+}
+int main()
+{
+    //m=multiplier and //q=multiplicand
+    int m,q,bits,product;
+    printf("enter the number for multiplier:");
+    scanf("%d",&m);
+    printf("enter the number for multiplicand:");
+    scanf("%d",&q);
+    printf("enter the number of bits:");
+    scanf("%d",&bits);
+    bits=bits-1;
+    printf("Multiplicand (binary):");
+    bin(m,bits);
+    printf("\nMultiplier (binary):");
+    bin(q,bits);
+    product=m*q;
+    printf("\nproduct (decimal):%d",product);
+    printf("\nproduct (binary):");
+    bin(product,bits);
+}
