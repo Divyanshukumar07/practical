@@ -1,0 +1,89 @@
+FirstName,LastName,DoB,DoJ,Address1,Address2,City,Pincode,Skill1,Skill2,Skill3,PayLevel,height,weight
+Ritvik,Choudhry,31-12-1974,29-05-2016,"H.No. 24, Mani Marg",H.No. 44,Erode,503578,React,Java,Cloud,L4,5.5,78
+Vihaan,Dara,22-04-1997,22-07-2016,"458
+Sane Marg",52,Kottayam,572731,Data Science,React,Python,L1,5.3,84
+Jayan,Iyengar,20-09-1981,15-01-2021,"72
+Ghosh Marg",,Satna,412193,React,Java,Cloud,L4,5.4,56
+Mehul,Chauhan,15-05-1968,12-11-2024,"H.No. 84
+Chatterjee Chowk",,Madurai,694711,SQL,React,Cloud,L3,4.9,62
+Hunar,Sunder,11-11-1977,03-02-2021,"445, Boase Circle",68,Hubli–Dharwad,686083,React,,Data Science,L1,4.4,58
+Dhruv,Barad,06-12-1990,17-01-2018,"49/62, Choudhry Ganj",,Kottayam,474867,Python,,SQL,L1,4.7,75
+Aarav,Rau,12-06-1969,10-10-2015,"H.No. 75, Ganesh Chowk",,Sambhal,402425,Data Science,React,Cloud,L2,5,45
+Raunak,Sandal,11-01-1979,27-12-2020,"90/048, Joshi Street",H.No. 541,Solapur,751347,Data Science,Java,SQL,L4,4.2,32
+Rohan,Garde,17-04-1975,18-04-2021,"40
+Chandra Nagar",,Aizawl,245253,Java,Machine Learning,React,L4,5.3,69
+Nehmat,Luthra,27-01-2022,28-05-1977,"H.No. 06, Chatterjee Marg",,Ambattur,,Cloud,Java,Data Science,L4,4.9,56
+Hunar,Sura,20-09-1972,13-07-2023,"53, Seshadri Street",86,Durg,,Cloud,C++,React,L2,3.2,45
+Ela,Lad,08-09-1989,11-11-2018,"033, Thaman Zila",,Jhansi,647254,React,Cloud,Java,L3,5.6,85
+Ritvik,Varghese,03-03-1968,14-03-2022,"26, Bains Ganj",,Mehsana,938003,Java,,Python,L3,,74
+Shamik,Shankar,30-03-1988,12-04-2018,"713, Barad Chowk",,Dhanbad,387712,C++,Python,Machine Learning,L3,4.11,48
+Ahana ,Iyengar,10-08-1996,04-04-2018,"100
+Chaudhry Chowk",,Ambala,795362,Machine Learning,Cloud,Python,L1,4.6,95
+Hansh,Khare,12-03-1984,16-07-2021,"28/10, Sani Circle",31/127,Hazaribagh,686651,Cloud,Data Science,SQL,L4,,67
+Tarini,Dua,12-06-1973,03-12-2017,"H.No. 40, Bail Ganj",,Ghaziabad,542354,Cloud,Java,Machine Learning,L3,,74
+Tara,Shetty,16-04-1966,03-12-2020,"56/66
+Ratta Road",34,Bharatpur,182431,SQL,C++,Data Science,L2,5.3,72
+Indrans,Sibal,22-08-2003,29-07-2024,"82, Loke",,Dhanbad,735783,Cloud,Python,Machine Learning,L2,,81
+Pari,Edwin,10-05-2024,15-07-1974,"H.No. 867, Varkey Road",,Bijapur,187813,React,Cloud,Python,L1,4.2,52
+Devansh,Shroff,29-03-1985,06-10-2015,"H.No. 490, Sem Path",,Indore,203852,React,Java,Cloud,L1,,43
+Priyansh,Sabharwal,14-04-1983,05-10-2022,"06
+Mannan",,Indore,132151,C++,React,Cloud,L3,6.2,
+Shray,Sami,20-12-1972,23-04-2022,"52
+Ghose Ganj",H.No. 27,Hindupur,333303,Python,React,Java,L2,,54
+Tanya,Sha,01-10-1978,09-03-2019,"H.No. 94, Chaudhuri Chowk",43/04,Durg,897692,SQL,Java,Cloud,L1,,53
+Ishita,Ravel,09-03-1967,07-04-2020,"391, Dixit Ganj",54,Imphal,996400,C++,React,Machine Learning,L3,5.9,62
+Trisha,Brar,27-10-1966,02-05-2023,"98, Chhabra Chowk",,Jamnagar,029817,Python,Java,Data Science,L3,,
+Onkar,Kothari,10-05-1999,21-12-2023,"H.No. 094, Zacharia Chowk",692,Firozabad,531274,Java,React,C++,L3,5,45
+Shaan,Mallick,01-01-1983,03-06-2024,"352
+Dass Zila",,Bahraich,763443,Python,React,Data Science,L2,,12
+Riya,Gara,23-12-2000,09-07-2018,"156
+Apte Road",,Thrissur,492241,Python,Java,Cloud,L2,4.1,94
+Hrishita,Sastry,01-02-1971,21-10-2015,"H.No. 322
+Choudhury Road",,Ramagundam,544151,SQL,Cloud,Python,L3,5.9,56
+Anahita,Vala,11-12-1978,13-06-2021,"24
+Khalsa Street",597,Howrah,077654,Data Science,Python,Cloud,L2,,45
+Neelofar,Choudhury,30-10-1967,02-07-2019,"H.No. 74, Randhawa Road",892,Phagwara,768067,SQL,Python,C++,L3,,78
+Hridaan,Borra,01-08-1977,27-09-2024,"525
+Dugar Path",H.No. 914,Nagpur,048268,Cloud,Data Science,Machine Learning,L2,,16
+Charvi,Krishnamurthy,26-11-1982,03-03-2017,"17/414, Khatri Path",H.No. 88,Nagpur,970104,React,Machine Learning,SQL,L4,5.5,51
+Hansh,Savant,08-03-2003,30-10-2017,"H.No. 88
+Barman Ganj",H.No. 73,Guna,970465,React,Machine Learning,C++,L3,5.3,65
+Yasmin,Sarna,22-01-1966,15-09-2022,"509, Srinivasan Zila",49/604,Agartala,537332,Machine Learning,C++,Java,L2,5.4,
+Yuvaan,Chawla,10-06-1965,11-10-2021,"44
+Kakar Street",58,Tirunelveli,257842,SQL,Python,Data Science,L2,4.9,25
+Anahita,Vala,11-12-1978,13-06-2021,"24
+Khalsa Street",597,Howrah,077654,Data Science,Python,Cloud,L2,4.4,45
+Anya,Chahal,29-10-1984,22-06-2019,"H.No. 669, Singhal Chowk",19/345,Surendranagar Dudhrej,288768,Machine Learning,React,Java,L2,4.7,69
+Nayantara,Kohli,25-11-1992,19-04-2024,"53/83
+Bumb Chowk",,Solapur,148762,Machine Learning,Data Science,Python,L2,5,
+Samaira,Gopal,25-11-1984,05-08-2019,"H.No. 32
+Lall Circle",,Adoni,,React,Python,Data Science,L4,4.2,57
+Raunak,Vohra,05-05-2001,02-08-2016,"H.No. 630, Bajaj Zila",,Machilipatnam,534145,SQL,React,C++,L1,5.3,35
+Tara,Shetty,16-04-1966,03-12-2020,"56/66
+Ratta Road",34,Bharatpur,,SQL,C++,Data Science,L2,4.9,85
+Charvi,Krishnamurthy,26-11-1982,03-03-2017,"17/414, Khatri Path",H.No. 88,Nagpur,970104,React,Machine Learning,SQL,L4,3.2,
+Samar,Vig,30-07-1977,24-12-2023,"64/610
+Divan Nagar",,Avadi,,C++,Java,React,L3,5.6,78
+Tarini,Balakrishnan,18-12-1996,26-03-2017,"37/564, Kar Nagar",,Erode,021891,Machine Learning,SQL,C++,L4,,65
+Aayush,Trivedi,29-06-1973,23-04-2022,"79/838, Sen Street",H.No. 141,Bhilai,548617,Cloud,SQL,React,L4,4.8,54
+Shamik,Shankar,30-03-1988,12-04-2018,"713, Barad Chowk",,Dhanbad,,C++,Python,Machine Learning,L3,,59
+Nitya,Krishnan,06-08-1967,05-07-2019,"19/15
+Dasgupta Nagar",,Dehradun,576585,SQL,Java,C++,L2,,45
+Rasha,Bhargava,07-05-1967,02-05-2022,"H.No. 17, Gandhi Marg",H.No. 509,Rajpur Sonarpur,063196,Python,C++,Java,L4,4.9,
+Yuvaan,Chawla,10-06-1965,11-10-2021,"44
+Kakar Street",58,Tirunelveli,257842,SQL,,Data Science,L2,4.3,26
+Adira,Saran,29-08-1992,29-07-2018,"H.No. 67
+Apte Marg",Nov-72,Hajipur,741730,Python,Machine Learning,C++,L3,5.1,57
+Sumer,Desai,18-05-1997,01-05-2024,"37/057
+Majumdar Ganj",,Tirunelveli,238231,Cloud,,React,L2,5.3,54
+Sana,Bahri,24-06-1972,26-01-2019,"78/344
+Khalsa Street",,Bally,494759,React,,Java,L1,4.1,56
+Inaaya ,Deol,26-09-1980,23-08-2021,"H.No. 32, Lad",88,Jaipur,882546,Java,Cloud,SQL,L4,5.2,67
+Indrans,Sibal,22-08-2003,29-07-2024,"82, Loke",,Dhanbad,735783,Cloud,Python,Machine Learning,L2,,81
+Pari,Edwin,10-05-2024,15-07-1974,"H.No. 867, Varkey Road",,Bijapur,187813,React,Cloud,Python,L1,4.2,52
+Devansh,Shroff,29-03-1985,06-10-2015,"H.No. 490, Sem Path",,Indore,203852,React,Java,Cloud,L1,,43
+Priyansh,Sabharwal,14-04-1983,05-10-2022,"06
+Mannan",,Indore,132151,C++,React,Cloud,L3,6.2,
+Shray,Sami,20-12-1972,23-04-2022,"52
+Ghose Ganj",H.No. 27,Hindupur,333303,Python,React,Java,L2,,54
+Tanya,Sha,01-10-1978,09-03-2019,"H.No. 94, Chaudhuri Chowk",43/04,Durg,897692,SQL,Java,Cloud,L1,,53

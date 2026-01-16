@@ -1,0 +1,14 @@
+Country Name,Country Code,Series Name,Series Code,2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016]
+Australia,AUS,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,10403.6170205749,10213.039449188,10059.2074467909,..,..
+Australia,AUS,Ease of doing business index (1=most business-friendly regulations),IC.BUS.EASE.XQ,..,..,..,..,..
+Australia,AUS,Domestic credit to private sector (% of GDP),FS.AST.PRVT.GD.ZS,121.499098092336,124.979599407506,128.7285936391,136.586163559788,142.518425789207
+Australia,AUS,"Employers, female (% of female employment) (modeled ILO estimate)",SL.EMP.MPYR.FE.ZS,4.39599990844727,4.35500001907349,4.32200002670288,4.37200021743774,4.24399995803833
+Australia,AUS,"Employers, male (% of male employment) (modeled ILO estimate)",SL.EMP.MPYR.MA.ZS,8.03400039672852,7.99499988555908,7.9980001449585,7.79899978637695,7.90999984741211
+Australia,AUS,"Employers, total (% of total employment) (modeled ILO estimate)",SL.EMP.MPYR.ZS,6.38299989700317,6.33699989318848,6.32000017166138,6.22800016403198,6.21999979019165
+Australia,AUS,Employment in agriculture (% of total employment) (modeled ILO estimate),SL.AGR.EMPL.ZS,2.79999995231628,2.6159999370575,2.80200004577637,2.64400005340576,2.63100004196167
+Australia,AUS,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",SL.AGR.EMPL.FE.ZS,1.91499996185303,1.66600000858307,1.83000004291534,1.85500001907349,1.68799996376038
+Australia,AUS,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",SL.AGR.EMPL.MA.ZS,3.53500008583069,3.41199994087219,3.61899995803833,3.31299996376038,3.43799996376038
+Australia,AUS,Employment in industry (% of total employment) (modeled ILO estimate),SL.IND.EMPL.ZS,20.7189998626709,20.4890003204346,20.3409996032715,19.4540004730225,19.4209995269775
+Australia,AUS,"Employment in industry, female (% of female employment) (modeled ILO estimate)",SL.IND.EMPL.FE.ZS,8.36600017547607,8.31099987030029,8.1269998550415,7.67399978637695,7.91499996185303
+Australia,AUS,"Employment in industry, male (% of male employment) (modeled ILO estimate)",SL.IND.EMPL.MA.ZS,30.9810009002686,30.6830005645752,30.6049995422363,29.4330005645752,29.2590007781982
+Australia,AUS,Employment in services (% of total employment) (modeled ILO estimate),SL.SRV.EMPL.ZS,76.4810028076172,76.8949966430664,76.8570022583008,77.9010009765625,77.947998046875

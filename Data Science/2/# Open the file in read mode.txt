@@ -1,0 +1,15 @@
+# Open the file in read mode
+with open('rainfall.txt', 'r') as file:
+    # Skip the header line
+    header = file.readline()
+    
+    # Read each line in the file
+    for line in file:
+        # Remove trailing whitespace
+        line = line.strip()
+        
+        # Split the line by comma
+        date, rainfall = line.split(',')
+        
+        # Print the data
+        print(f"Date: {date}, Rainfall: {rainfall} mm")
